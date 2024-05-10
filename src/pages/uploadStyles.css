@@ -1,0 +1,40 @@
+/* UploadedDocuments.css */
+
+.uploaded-documents-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.uploaded-document {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.uploaded-document h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.uploaded-document p {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.uploaded-document p:last-child {
+  margin-bottom: 0;
+}
+
+.uploaded-document a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.uploaded-document a:hover {
+  text-decoration: underline;
+}

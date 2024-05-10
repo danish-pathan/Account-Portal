@@ -1,0 +1,52 @@
+/* Home.css */
+
+/* Container styles */
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Table container */
+.table-container {
+  margin-bottom: 50px;
+}
+
+/* Table styles */
+.registration-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.registration-table th,
+.registration-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.registration-table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.registration-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.registration-table tbody tr:hover {
+  background-color: #f0f0f0;
+}
+
+.registration-table tbody td a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.registration-table tbody td a:hover {
+  color: #0056b3;
+}
